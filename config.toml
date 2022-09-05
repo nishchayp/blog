@@ -1,0 +1,23 @@
+baseURL = 'https://nishchayp.github.io/blog/'
+languageCode = 'en-us'
+title = 'Ramble On'
+
+theme = "hyde"
+
+[author]
+    name = "Nishchay Parashar"
+    email = "nishchayparashar98@gmail.com"
+    github = "nishchayp"
+
+[taxonomies]
+    category = "categories"
+    tag = "tags"
+
+[params]
+  description = "Blogs by Nishchay"
+
+[Menus]
+  main = [
+      {Name = "Explore by tags", URL = "/tags/", Weight = 10},
+      {Name = "... nishchayp.github.io/", URL = "https://nishchayp.github.io/", Weight = 20}
+  ]
